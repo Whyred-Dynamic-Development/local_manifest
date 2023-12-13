@@ -5,10 +5,15 @@
    <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="bouquet" revision="lineage-20" />
    <project path="device/xiaomi/twolip" name="android_device_xiaomi_twolip" remote="bouquet" revision="lineage-20" />
    <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="bouquet" revision="lineage-20" />
+
    <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="bouquet" revision="lineage-20" />
    <project path="vendor/xiaomi/twolip" name="android_vendor_xiaomi_twolip" remote="bouquet" revision="lineage-20" />
    <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="bouquet" revision="lineage-20" />
    
+   <project path="kernel/xiaomi/sdm660-common" name="san_kernel_sdm660_4" remote="bouquet" revision="san-4.19-mesh" />
+   <project path="device/xiaomi/bouquet-kernels" name="android_device_xiaomi_bouquet-kernels" remote="bouquet" revision="thirteen" />
+
+
    <project path="hardware/qcom-caf/bouquet/media" name="android_hardware_qcom_media" remote="bouquet" revision="13-4.19" />
    <project path="hardware/qcom-caf/bouquet/audio" name="android_hardware_qcom_audio" remote="bouquet" revision="13-4.19" />
    <project path="hardware/qcom-caf/bouquet/display" name="android_hardware_qcom_display" remote="bouquet" revision="sdm660-4.19" />
