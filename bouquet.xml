@@ -2,11 +2,11 @@
 <manifest>
     <remote name="bouquet"
       fetch="https://github.com/Whyred-Dynamic-Development"/>
-   <project path="device/xiaomi/bouquet-common" name="android_device_xiaomi_bouquet-common" remote="bouquet" revision="lineage-21" />
+   <project path="device/xiaomi/bouquet-common" name="android_device_xiaomi_bouquet-common" remote="bouquet" revision="lineage-21-staging" />
    <project path="device/xiaomi/twolip" name="android_device_xiaomi_twolip" remote="bouquet" revision="lineage-21" />
    <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="bouquet" revision="lineage-21" />
 
-   <project path="vendor/xiaomi/bouquet-common" name="android_vendor_xiaomi_bouquet-common" remote="bouquet" revision="lineage-21" />
+   <project path="vendor/xiaomi/bouquet-common" name="android_vendor_xiaomi_bouquet-common" remote="bouquet" revision="lineage-21-staging" />
    <project path="vendor/xiaomi/twolip" name="android_vendor_xiaomi_twolip" remote="bouquet" revision="lineage-20" />
    <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="bouquet" revision="lineage-20" />
    
